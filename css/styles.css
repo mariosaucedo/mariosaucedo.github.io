@@ -1,0 +1,334 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-family: 'Arial' 'serif';
+	background-color: #EAECEE;
+}
+.wrapper{
+	width: 1440px
+	margin:0 auto;
+	background-color: #FFFFFF;
+}
+/*======TOP PRE BANNER======*/
+header{
+	background-color: #144A80;
+	height: 90px;
+	border-bottom: 10px;
+	border-bottom-color: #4D90C4;
+	border-bottom-style: solid;
+}
+.numberPlace{
+	padding-left: 60px;
+	padding-top: 20px;
+}
+.numberPlace p{
+	color: #FFFFFF;
+}
+#number{
+	color: #FFFFFF;
+	font-weight: 600;
+}
+.socialPlace{
+	padding-right: 60px;
+	padding-top: 20px;	
+}
+.socialPlace ul{
+	float: right;
+	list-style: none;
+
+}
+.socialPlace  li {
+	display: inline-block;
+	text-align: center;
+	padding-left: 10px;
+}
+.socialPlace li a{
+	color: #FFFFFF;
+	font-size: 25px;
+}
+.socialPlace li a:hover{
+	text-decoration: none;
+}
+/*======MAIN MENU======*/
+.main-menu{
+	background:url(../img/hero-Copy.jpg) no-repeat center;
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+.logoPlace{
+	padding-top: 40px;
+	padding-left: 60px;
+
+
+}
+#logo{
+	width: 300px;
+	display: block;
+	max-width: 200%;
+	background-repeat: no-repeat;
+	position: center;
+}
+.infoPlace{
+	float: right;
+	padding-top: 40px;
+}
+#callText{
+	text-align: right;
+	font-size: 26px;
+	font-weight: 600;
+}
+#callText:after{
+	content: "(678) 878 – 3205";
+	color: #475880;
+	display: block;
+	font-size: 26px;
+	font-weight: 600;
+}
+/*======ARTICLE======*/
+article{
+	text-align: center;
+}
+article p{
+	line-height: 180%;
+	font-size: 15px;
+}
+
+#headlineTag{
+	font-weight: 600;
+	color: #475880;
+}
+#headline{
+	color: #144A80;
+
+}
+#articleTitle{
+	color: #144A80;
+	font-size: 40px;
+	font-weight: 600;
+}
+.article-banner-place{
+	padding-top: 20px;
+
+}
+.article-banner{
+	background-color: #144A80;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.button-col{
+	padding-top: 20px;
+	margin-right: 40px;
+
+}
+.button-col ul{
+	list-style: none;
+	padding-left: 20px;
+
+
+}
+.button-col ul li{
+	width: 250px;
+	height: 40px;
+	background-color: #144A80;
+	color: #FFFFFF;
+	padding-top: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+
+
+
+}
+.right-mid-section{
+padding-top: 50px;
+padding-left: 20px;
+}
+.rms-title{
+	color: #144A80;
+	font-size: 24px;
+	font-weight: 600;
+}
+.right-lower-section{
+	padding-left: 20px;
+	
+}
+.right-lower-section p{
+	font-size: 12px;
+}
+#form-headline{
+	text-align: center;
+}
+.form-btn{
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	background-color: #144A80;
+
+}
+
+
+.caregiver-section{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.caregiver-section p{
+	line-height: 200%;
+	font-size: 14px;
+}
+.pos-bttn{
+	padding-top: 60px;
+	padding-left: 200px;
+}
+.pos-bttn:hover{
+	color: red;
+}
+.bttn-style{
+	background-color: #144A80; 
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 14px;
+}
+.bttn-style:hover{
+	background-color: #99ccff;
+	color: #FFFFFF;
+}
+
+/*======FOOOTER======*/
+.sub-footer{
+	background-color: #144A80;
+	color: #FFFFFF;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 40px;
+}
+.sub-footer h4{
+	text-align: center;
+	font-weight: 900;
+}
+.sub-footer ul{
+	list-style: none;
+	font-size: 12px;
+	font-weight: 900;
+
+
+}
+.sub-footer ul li{
+	line-height: 200%;
+}
+.sub-footer ul a{
+	color: #FFFFFF;
+}
+.sub-footer ul a:hover{
+	color: #99ccff;
+	text-decoration: none;
+}
+footer{
+	background-color: #144A80;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+.footer-details{
+	padding-left: 60px;
+}
+.footer-social ul{
+	float: right;
+	list-style: none;
+	padding-right: 60px;
+
+}
+
+.footer-social  li {
+	display: inline-block;
+	text-align: center;
+	padding-left: 20px;
+	font-size: 14px;
+}
+.footer-social li a{
+	color: #FFFFFF;
+	
+}
+.footer-social li a:hover{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUeRIES*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
